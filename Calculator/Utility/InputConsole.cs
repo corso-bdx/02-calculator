@@ -1,6 +1,6 @@
 ﻿namespace Calculator.Utility;
 
-// static significa che non è consentito creare istanze di questa classe
+// "static" di fronte a "class" significa che non è consentito creare istanze di questa classe
 // mentre sui metodi significa che possono essere chiamati senza bisogno di creare un'istanza della classe
 static class InputConsole {
 

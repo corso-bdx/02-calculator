@@ -79,7 +79,7 @@ try {
 
     // stampa il risultato
     Console.WriteLine($"Valore {calcolare}: {valore}");
-} catch(OperationCanceledException) {
+} catch (OperationCanceledException) {
     // NOTA: questo messaggio potrebbe non essere mai stampato in debug,
     // perché CTRL + C termina il processo dopo pochi istanti
     Console.WriteLine("Operazione annullata.");
